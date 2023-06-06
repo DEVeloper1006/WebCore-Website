@@ -38,7 +38,6 @@ header {
 .logo {
     width: 100px;
     height: 100px;
-    margin-right: 250px;
     transition:0.5s;
 }
 
@@ -309,4 +308,18 @@ header {
 
 .login-link p a:hover {
     text-decoration: underline;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 250px;
+}
+
+.logo-section .title {
+    margin-top: 34px;
+    color: #e5e9ec;
+    user-select: none;
+    margin-left: 25px;
 }
