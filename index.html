@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>WebCore</title>
         <link rel="stylesheet" href="/styles/index.css">
         <link rel="icon" href="/images/WebCore Logo.png" type="image/x-icon">
@@ -11,19 +10,25 @@
         <meta name="Description" content="A Website For WebCore.">
     </head> 
     <body>
-        <header>
-            <div class="logo-section">
-                <a href="index.html"><img src="/images/WebCore Logo.png" alt="Logo" class="logo" loading="lazy"></a>
-                <h1 class="title">WebCore</h1>
-            </div>
-
-            <nav class="nav-bar">
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
-                <button class="btnLogin-popup">Login</button>
-            </nav>
-        </header>
+        <div class="container">
+            <header>
+                <div class="logo-section">
+                    <a href="index.html"><img src="/images/WebCore Logo.png" alt="Logo" class="logo" loading="lazy"></a>
+                    <h1 class="title">WebCore</h1>
+                </div>
+    
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Memberships</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><button class="btnLogin-popup">Login</button></li>
+                        <li><a href="#"><ion-icon name="menu" class="menu"></ion-icon></a>
+                    </ul>
+                </nav>
+            </header>
+        </div>
 
         <div class="wrapper">
             <span class="icon-close">

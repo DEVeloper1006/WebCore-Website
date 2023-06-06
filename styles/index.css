@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +8,12 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 body {
@@ -31,7 +36,7 @@ header {
     width: 100%;
     padding: 20px 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     z-index: 99;
 }
 
@@ -46,10 +51,21 @@ header {
 }
 
 .nav-bar {
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
-.nav-bar a{
+.nav-bar ul {
+    float: right;
+    margin-right: 40px;
+
+}
+.nav-bar li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.nav-bar li a{
     position: relative;
     font-size: 1.1em;
     color: #fff;
@@ -98,12 +114,17 @@ header {
     transform: scale(1.1);
 }
 
-.nav-bar:hover a {
+.nav-bar:hover a{
     filter: blur(2px);
 }
 
-.nav-bar a:hover {
+.nav-bar a:hover{
     filter: blur(0px)
+}
+
+.nav-bar ul li .menu{
+    font-size: 15px;
+    line-height: 60px;
 }
 
 .wrapper {
@@ -314,12 +335,12 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-right: 250px;
+    padding: 0 100px;
 }
 
 .logo-section .title {
-    margin-top: 34px;
     color: #e5e9ec;
     user-select: none;
     margin-left: 25px;
+    padding-top: 35px;
 }
