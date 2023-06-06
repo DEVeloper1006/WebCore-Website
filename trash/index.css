@@ -10,12 +10,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 body {
     display:flex;
     justify-content: center;
@@ -343,4 +337,11 @@ header {
     user-select: none;
     margin-left: 25px;
     padding-top: 35px;
+}
+
+.hero-section {
+    width:75%;
+    height: 500px;
+    border: 2px solid white;
+    float: left;
 }
